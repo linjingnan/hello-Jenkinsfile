@@ -1,12 +1,12 @@
 name: Build and Deploy to Azure
 
 env:
-  AZURE_CONTAINER_REGISTRY_NAME: "rayghademo"  # set this to the name of your Azure Container Registry
+  AZURE_CONTAINER_REGISTRY_NAME: "qihangcicddemo"  # set this to the name of your Azure Container Registry
   AZURE_CONTAINER_REGISTRY: "qihangcicddemo"
   CONTAINER_NAME: "hello-world"
-  RESOURCE_GROUP: "github-actions-demo-rg"
+  RESOURCE_GROUP: "MC_Devops_QihangZ-cicd-aks_australiaeast"
   CLUSTER_NAME: "QihangZ-cicd-aks"
-  DEPLOYMENT_MANIFEST_PATH: "kubernetes"
+  DEPLOYMENT_MANIFEST_PATH: "qihangcicddemocosmos"
 
 # Retrive below secrets from GitHub Actions Secrets
 #  AZURE_TENANT_ID: "secrets"
